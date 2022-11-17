@@ -2,6 +2,7 @@
 /.mono
 /*.translation
 /export_presets.cfg
+/pain*
 
 
 # Added by cargo
