@@ -1,5 +1,12 @@
+/.import
+/.mono
+/*.translation
+/export_presets.cfg
+
+
+# Added by cargo
+#
+# already existing elements were commented out
+
 /target
-.import
-.mono
-*.translation
-export_presets.cfg
+/Cargo.lock
