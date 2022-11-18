@@ -13,7 +13,11 @@ pub mod Inv {
             penetration: i32,
             description: String,
         }
-
+        enum HitOrMiss {
+            // Yah I bet you never miss ha.  You got a boyfriend? I bet he doesn't kiss ya.
+            Hit(i32),
+            Miss,
+        }
         impl Attack {
             fn calc(&self, armor: Armor) -> HitOrMiss {}
         }
@@ -32,11 +36,13 @@ pub mod Inv {
             description: String,
         }
 
-        struct Armor {}
+        struct Armor {
+
+        }
     }
 }
 
 #[cfg(test)]
 mod Test {
-    use super::*;
+    use super::Inv::*;
 }
